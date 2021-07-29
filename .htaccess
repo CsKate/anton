@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+   RewriteCond %{REQUEST_URI}  !(\.css|\.js|.ttf|.jpg|.png|.svg)$
+   RewriteRule (.*)  index.php [QSA]
+</IfModule>
+
+SetEnv DB_HOST localhost
+SetEnv DB_USER root
+SetEnv DB_PASS 
+SetEnv DB_DATABASE musko

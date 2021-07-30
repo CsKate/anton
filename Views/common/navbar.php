@@ -2,6 +2,7 @@
     <div>
       <img class="rose" src="../../Assets/images/rose2.png" >
     </div>
+    <div class="eskuvoi-datum" >2022. május 28.</div>
     
   <div class="basic-menu">
 

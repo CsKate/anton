@@ -49,10 +49,9 @@
             <p class="random-quote" >“Az igazi bilincs nem fémből készül. Nem kulcs nyitja. Semmi nem nyitja. Annyira erős. Egy szempár. Egy mosoly. Egy nevetés. Egy érzés. Egy Nő. Akiből nincs szabadulás.”</p>
             <p class="random-quote-author" >Csitáry-Hock Tamás</p>
         </div>
-        <div id="sec"></div>
     </section>
     
-    <script src="../Scripts/script.js">
+    <script src="../Scripts/timer.js">
 
     </script>
 </body>

@@ -14,12 +14,16 @@
     <?php
         include 'common/navbar.php';
     ?>
+    <?php $randomNumberCookies = rand(1,4);
+        if ($randomNumberCookies == 1){
+            include 'common/nocookies.php';
+        }
+    ?>
 
-
-    <section>
-        <?php $randomSzam = rand(1,4); ?>
+    <section id="frontpage-content" >
+        <?php $randomNumberPicture = rand(1,4); ?>
         
-        <div class="<?php echo "random-picture random-picture-".$randomSzam ?>" >
+        <div class="<?php echo "random-picture random-picture-".$randomNumberPicture ?>" >
         
         </div>
 
@@ -49,11 +53,15 @@
             <p class="random-quote" >“Az igazi bilincs nem fémből készül. Nem kulcs nyitja. Semmi nem nyitja. Annyira erős. Egy szempár. Egy mosoly. Egy nevetés. Egy érzés. Egy Nő. Akiből nincs szabadulás.”</p>
             <p class="random-quote-author" >Csitáry-Hock Tamás</p>
         </div>
-    </section>
-    
-    <script src="../Scripts/timer.js">
 
-    </script>
+    </section>
+
+ 
+    <!-- <script src="../Scripts/scroll.js" ></script> -->
+    <!-- valami ugrás van benne, és full nem értem, h miért... :S -->
+    
+    <script src="../Scripts/timer.js"></script>
+    <script src="../Scripts/events.js"></script>
 </body>
 </html>
 

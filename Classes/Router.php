@@ -15,13 +15,21 @@
                         require 'Views/kezdolap.php';
                     break;
 
-                    case "kezdolap":
+                    case "fooldal":
                         require 'Views/kezdolap.php';
                     break;
 
                     case "visszajelzes":
                         require 'Views/visszajelzes.php';
                     break;
+
+                    case "nocookiesdetails":
+                        require 'Views/nocookiesdetails.php';
+                    break;
+                    default: 
+                    require "Views/baromsag.php";
+
+                    
                 }
             }
 
